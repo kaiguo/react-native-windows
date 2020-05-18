@@ -21,7 +21,6 @@ const URIActionMap = require('./utils/URIActionMap');
 
 const {
   AppRegistry,
-  AsyncStorage,
   BackHandler,
   Button,
   Linking,
@@ -39,6 +38,7 @@ import type {RNTesterAction} from './utils/RNTesterActions';
 import type {RNTesterNavigationState} from './utils/RNTesterNavigationReducer';
 import {RNTesterThemeContext, themes} from './components/RNTesterTheme';
 import type {ColorSchemeName} from '../../Libraries/Utilities/NativeAppearance';
+import AsyncStorage from '@react-native-community/async-storage';
 
 type Props = {exampleFromAppetizeParams?: ?string, ...};
 

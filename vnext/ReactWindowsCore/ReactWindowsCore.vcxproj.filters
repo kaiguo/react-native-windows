@@ -7,9 +7,6 @@
     <Filter Include="Header Files">
       <UniqueIdentifier>{32892a40-82db-4c1b-9390-5893f9ddbb0b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\AsyncStorage">
-      <UniqueIdentifier>{afc5d1fe-6d70-4040-a72b-036ffa74a2eb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Modules">
       <UniqueIdentifier>{81319f88-192e-40cf-bc1c-76a84bf37ccd}</UniqueIdentifier>
     </Filter>
@@ -18,9 +15,6 @@
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{b8d1b3de-1573-4d49-a26f-99892413a797}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\AsyncStorage">
-      <UniqueIdentifier>{efe7ad3d-598a-4633-a2b7-2de458833b88}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Modules">
       <UniqueIdentifier>{2b4f6cca-9c7e-4bf1-9711-829006f0be1e}</UniqueIdentifier>
@@ -36,15 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AsyncStorage\AsyncStorageManager.cpp">
-      <Filter>Source Files\AsyncStorage</Filter>
-    </ClCompile>
-    <ClCompile Include="AsyncStorage\FollyDynamicConverter.cpp">
-      <Filter>Source Files\AsyncStorage</Filter>
-    </ClCompile>
-    <ClCompile Include="AsyncStorage\KeyValueStorage.cpp">
-      <Filter>Source Files\AsyncStorage</Filter>
-    </ClCompile>
     <ClCompile Include="BaseScriptStoreImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -64,12 +49,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Modules\AppStateModule.cpp">
-      <Filter>Source Files\Modules</Filter>
-    </ClCompile>
-    <ClCompile Include="Modules\AsyncStorageModule.cpp">
-      <Filter>Source Files\Modules</Filter>
-    </ClCompile>
-    <ClCompile Include="Modules\AsyncStorageModuleWin32.cpp">
       <Filter>Source Files\Modules</Filter>
     </ClCompile>
     <ClCompile Include="Modules\ExceptionsManagerModule.cpp">
@@ -125,9 +104,6 @@
     </CLCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ReactWindowsCore\AsyncStorageModuleWin32Config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\ReactWindowsCore\ReactWindowsAPI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -135,18 +111,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AbiSafe.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AsyncStorage\AsyncStorageManager.h">
-      <Filter>Header Files\AsyncStorage</Filter>
-    </ClInclude>
-    <ClInclude Include="AsyncStorage\FollyDynamicConverter.h">
-      <Filter>Header Files\AsyncStorage</Filter>
-    </ClInclude>
-    <ClInclude Include="AsyncStorage\KeyValueStorage.h">
-      <Filter>Header Files\AsyncStorage</Filter>
-    </ClInclude>
-    <ClInclude Include="AsyncStorageModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BaseScriptStoreImpl.h">

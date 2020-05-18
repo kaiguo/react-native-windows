@@ -18,14 +18,6 @@
     },
     {
       "type": "copy",
-      "file": "IntegrationTests\\AsyncStorageTest.js",
-      "baseFile": "IntegrationTests\\AsyncStorageTest.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "363ad4689a7058e7ab525d1b3243390377c33c17",
-      "issue": 4054
-    },
-    {
-      "type": "copy",
       "file": "IntegrationTests\\GlobalEvalWithSourceUrlTest.js",
       "baseFile": "IntegrationTests\\GlobalEvalWithSourceUrlTest.js",
       "baseVersion": "0.62.0-rc.3",

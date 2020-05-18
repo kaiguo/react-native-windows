@@ -516,14 +516,6 @@
       "file": "RNTester\\APIExamples\\ThemingModuleAPI.tsx"
     },
     {
-      "type": "derived",
-      "file": "RNTester\\AsyncStorageStub.ts",
-      "baseFile": "Libraries\\Storage\\AsyncStorage.js",
-      "baseVersion": "0.61.5",
-      "baseHash": "688288dd65948fef904f6361f4e68c50605d1889",
-      "issue": "LEGACY_FIXME"
-    },
-    {
       "type": "patch",
       "file": "RNTester\\js\\components\\ListExampleShared.win32.js",
       "baseFile": "RNTester\\js\\components\\ListExampleShared.js",

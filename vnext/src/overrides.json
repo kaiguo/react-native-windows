@@ -5,14 +5,6 @@
       "file": "index.windows.ts"
     },
     {
-      "type": "patch",
-      "file": "IntegrationTests\\AsyncStorageTest.windesktop.js",
-      "baseFile": "IntegrationTests\\AsyncStorageTest.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "363ad4689a7058e7ab525d1b3243390377c33c17",
-      "issue": "LEGACY_FIXME"
-    },
-    {
       "type": "platform",
       "file": "IntegrationTests\\DummyTest.js"
     },

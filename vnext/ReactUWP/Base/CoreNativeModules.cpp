@@ -5,13 +5,11 @@
 #include "CoreNativeModules.h"
 
 // Modules
-#include <AsyncStorageModule.h>
 #include <Modules/AlertModuleUwp.h>
 #include <Modules/Animated/NativeAnimatedModule.h>
 #include <Modules/AppStateModuleUwp.h>
 #include <Modules/AppThemeModuleUwp.h>
 #include <Modules/AppearanceModule.h>
-#include <Modules/AsyncStorageModuleWin32.h>
 #include <Modules/ClipboardModule.h>
 #include <Modules/DeviceInfoModule.h>
 #include <Modules/ImageViewManagerModule.h>
@@ -126,19 +124,6 @@ std::vector<facebook::react::NativeModuleDescription> GetCoreModules(
         return std::make_unique<AppearanceModule>(std::move(appearanceListener));
       },
       messageQueue);
-
-  // AsyncStorageModule doesn't work without package identity (it indirectly depends on
-  // Windows.Storage.StorageFile), so check for package identity before adding it.
-  modules.emplace_back(
-      "AsyncLocalStorage",
-      []() -> std::unique_ptr<facebook::xplat::module::CxxModule> {
-        if (HasPackageIdentity()) {
-          return std::make_unique<facebook::react::AsyncStorageModule>(L"asyncStorage");
-        } else {
-          return std::make_unique<facebook::react::AsyncStorageModuleWin32>();
-        }
-      },
-      MakeSerialQueueThread());
 
   return modules;
 }

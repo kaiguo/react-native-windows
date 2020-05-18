@@ -107,10 +107,6 @@ TEST_CLASS (RNTesterIntegrationTests) {
     TestComponent("TimersTest");
   }
 
-  TEST_METHOD(AsyncStorage) {
-    TestComponent("AsyncStorageTest");
-  }
-
   BEGIN_TEST_METHOD_ATTRIBUTE(LayoutEvents)
   TEST_IGNORE()
   END_TEST_METHOD_ATTRIBUTE()
