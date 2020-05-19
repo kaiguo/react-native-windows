@@ -204,62 +204,6 @@
       "baseHash": "0b409391c852a1001cee74a84414a13c4fe88f8b"
     },
     {
-      "type": "patch",
-      "file": "Libraries\\Components\\Picker\\Picker.windows.js",
-      "baseFile": "Libraries\\Components\\Picker\\Picker.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "67a10fef33208d21006d7bd51b4e6fd8d4c9ca5d",
-      "issue": 4611
-    },
-    {
-      "type": "derived",
-      "file": "Libraries\\Components\\Picker\\PickerAndroid.windesktop.js",
-      "baseFile": "Libraries\\Components\\Picker\\PickerAndroid.ios.js",
-      "baseVersion": "0.61.5",
-      "baseHash": "e5bb18f4dc9ddbf96ab9b83cfc21b1c0495ac59a"
-    },
-    {
-      "type": "derived",
-      "file": "Libraries\\Components\\Picker\\PickerAndroid.windows.js",
-      "baseFile": "Libraries\\Components\\Picker\\PickerAndroid.ios.js",
-      "baseVersion": "0.61.5",
-      "baseHash": "e5bb18f4dc9ddbf96ab9b83cfc21b1c0495ac59a"
-    },
-    {
-      "type": "derived",
-      "file": "Libraries\\Components\\Picker\\PickerIOS.windesktop.js",
-      "baseFile": "Libraries\\Components\\Picker\\PickerIOS.android.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "0c6bf0751e053672123cbad30d67851ba0007af6"
-    },
-    {
-      "type": "derived",
-      "file": "Libraries\\Components\\Picker\\PickerIOS.windows.js",
-      "baseFile": "Libraries\\Components\\Picker\\PickerIOS.android.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "0c6bf0751e053672123cbad30d67851ba0007af6"
-    },
-    {
-      "type": "platform",
-      "file": "Libraries\\Components\\Picker\\PickerProps.ts"
-    },
-    {
-      "type": "derived",
-      "file": "Libraries\\Components\\Picker\\PickerWindows.tsx",
-      "baseFile": "Libraries\\Components\\Picker\\PickerIOS.ios.js",
-      "baseVersion": "0.62.2",
-      "baseHash": "f1409e9f69332850927323ecf2cf66a3573ef25e",
-      "issue": 4611
-    },
-    {
-      "type": "patch",
-      "file": "Libraries\\Components\\Picker\\RCTPickerNativeComponent.windows.js",
-      "baseFile": "Libraries\\Components\\Picker\\RCTPickerNativeComponent.js",
-      "baseVersion": "0.62.0-rc.3",
-      "baseHash": "aa6f9c4499a2b08d77158ee22fcc2a784847a7a0",
-      "issue": "LEGACY_FIXME"
-    },
-    {
       "type": "platform",
       "file": "Libraries\\Components\\Popup\\Popup.tsx"
     },
